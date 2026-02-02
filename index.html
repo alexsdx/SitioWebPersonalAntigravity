@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web personal y CV académico del Dr. Alejandro Estrada Padilla, experto en Ciencias en Computación, Optimización Heurística e Inteligencia Artificial.">
+    <title>Dr. Alejandro Estrada Padilla | Investigador y Académico</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Dr. Alejandro Estrada Padilla</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#semblanza">Semblanza</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#investigacion">Investigación</a></li>
+                <li><a href="#conferencias">Conferencias</a></li>
+                <li><a href="#contacto" class="btn-contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Dr. Alejandro Estrada Padilla</h1>
+                <h2>Doctor en Ciencias en Computación</h2>
+                <p>Profesor en el Instituto Tecnológico de Ciudad Madero en el Departamento de Sistemas y Computación, con interés en investigación y proyectos.</p>
+                <div class="hero-buttons">
+                    <a href="#investigacion" class="btn btn-primary">Ver Investigaciones</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Fotoperfil.png" alt="Dr. Alejandro Estrada Padilla">
+            </div>
+        </div>
+    </section>
+
+    <!-- Semblanza Section -->
+    <section id="semblanza" class="section">
+        <div class="container">
+            <h2 class="section-title">Semblanza</h2>
+            <div class="semantics-content">
+                <div class="semantics-text">
+                    <p>Alejandro Estrada Padilla es un investigador y académico en el área de la computación. Nacido en Tampico, Tamaulipas, México, Alejandro ha dedicado su carrera a la optimización heurística de problemas complejos.</p>
+                    <p>Completó su Doctorado en Ciencias en Computación en el Instituto Tecnológico de Tijuana en 2022, enfocándose en la incorporación de preferencias en problemas de optimización multicriterio. Previamente, obtuvo su Maestría en Ciencias de la Computación en el Instituto Tecnológico de Ciudad Madero, especializándose en la optimización de empacado de contenedores.</p>
+                    <p>Además, posee una Licenciatura en Ingeniería Mecatrónica con un Diplomado en Manufactura y Calidad del Instituto de Estudios Superiores de Tamaulipas (IEST). Alejandro es autor de varios artículos indexados en JCR y capítulos de libros en editoriales de prestigio. Entre sus publicaciones se destaca "GRASP/Δ: An efficient algorithm for the multi-objective portfolio optimization problem", publicado en Expert Systems with Applications con un factor de impacto de 8.665.</p>
+                    <p>Ha sido becario de CONACYT tanto en su maestría como en su doctorado. Alejandro imparte y desarrolla materias en la Maestría en Analítica de Negocios de la Anáhuac Online, en donde ha trabajado en materias como Estadística Inferencial y Ciencia de datos, y actualmente es profesor en la carrera de ingeniería en sistemas computacionales en el Instituto Tecnológico de Ciudad Madero, en donde imparte materias como Tecnologías para Big Data y Programación Lógica y Funcional.</p>
+                </div>
+                <div class="semantics-images">
+                    <img src="assets/TorneoRobotica1.jpg" alt="Participación en Torneo de Robótica" class="shadow-card">
+                    <img src="assets/TorneoRobotica2.jpg" alt="Actividad de Robótica" class="shadow-card">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formación Académica Section -->
+    <section id="formacion" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Formación Académica</h2>
+            <div class="timeline">
+                <!-- Doctorado -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Doctor en Ciencias en Computación</h3>
+                        <span class="date">2018 - 2022</span>
+                        <p class="institution">Instituto Tecnológico de Tijuana</p>
+                        <p class="thesis"><strong>Tesis:</strong> Análisis de Modelos de NO-Inferioridad para incorporar Preferencias en Problemas de Optimización Multicriterio con Dependencias Temporales Imperfectamente Conocidas</p>
+                        <p class="cedula">Cédula profesional: 13315940</p>
+                    </div>
+                </div>
+                <!-- Maestría -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Maestro en Ciencias de la Computación</h3>
+                        <span class="date">2016 - 2017</span>
+                        <p class="institution">Instituto Tecnológico de Ciudad Madero (ITCM)</p>
+                        <p class="thesis"><strong>Tesis:</strong> Optimización del Problema de Empacado de Contenedores con Costo y Tamaño Variable (VCSBPP)</p>
+                        <p class="cedula">Cédula profesional: 12503911</p>
+                        <p class="award"><i class="fas fa-award"></i> Becario CONACYT</p>
+                    </div>
+                </div>
+                <!-- Licenciatura -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Licenciado en Ingeniería Mecatrónica</h3>
+                        <span class="date">2011 - 2015</span>
+                        <p class="institution">Instituto de Estudios Superiores de Tamaulipas (IEST)</p>
+                        <p>Diplomado en manufactura y calidad</p>
+                        <p class="cedula">Cédula profesional: 10205143</p>
+                    </div>
+                </div>
+                <!-- Técnico -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Técnico en Informática</h3>
+                        <span class="date">2008 - 2011</span>
+                        <p class="institution">Centro de Bachillerato Tecnológico Industrial y de Servicios No. 103</p>
+                        <p class="cedula">Cédula profesional: 8519705</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Profesional Docente Section -->
+    <section id="experiencia" class="section">
+        <div class="container">
+            <h2 class="section-title">Experiencia Profesional Docente</h2>
+            
+            <div class="experience-grid">
+                <!-- Posgrado -->
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Profesor en Posgrado</h3>
+                        <span class="institution-badge">Anáhuac Online</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Maestría en Analítica de Negocios</h4>
+                        <p><strong>Curso impartido:</strong> Estadística Inferencial con Programación Matemática (Agosto - Septiembre 2024).</p>
+                    </div>
+                </div>
+
+                <!-- Desarrollador de Contenido -->
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Desarrollador de Contenido</h3>
+                        <span class="institution-badge">Generalia</span>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Materias desarrolladas (Marzo - Diciembre 2024):</strong></p>
+                        <ul>
+                            <li>Estadística Inferencial con Programación Matemática</li>
+                            <li>Ciencia de Datos para la Maestría en Analítica de Negocios</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Educación Superior -->
+                <div class="experience-card full-width">
+                    <div class="card-header">
+                        <h3>Profesor en Educación Superior</h3>
+                        <span class="institution-badge">TecNM - Instituto Tecnológico de Ciudad Madero</span>
+                    </div>
+                    <div class="card-body split-body">
+                        <div class="dept-info">
+                            <h4>Departamento de Ingeniería Industrial</h4>
+                            <p>Estadística Inferencial I y II, Investigación de Operaciones II, Ingeniería Económica, Temas Selectos de Productividad, Gestión Dinámica de la Innovación, Planeación y Diseño de Instalaciones, Tópicos de Ingeniería Industrial y Control Estadístico de Calidad.</p>
+                            
+                            <h4>Departamento de Sistemas y Computación</h4>
+                            <p>Lenguajes y Autómatas II, Taller de Investigación II, Algoritmos y Programación, Tecnologías para Big Data, Programación Lógica y Funcional, Graficación y Tecnologías de Aplicaciones Web.</p>
+                            <p><strong>Periodo:</strong> Agosto 2022 - Diciembre 2025</p>
+                        </div>
+                        <div class="dept-images">
+                            <img src="assets/ClaseLenguajesyAutomatasII.jpg" alt="Clase Lenguajes y Autómatas">
+                            <img src="assets/ClaseTecnologiasparaBigData.jfif" alt="Clase Big Data">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investigación Section -->
+    <section id="investigacion" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Producción Científica e Investigación</h2>
+            
+            <div class="research-interests">
+                <h3>Intereses de Investigación</h3>
+                <div class="tags">
+                    <span class="tag">Optimización heurística</span>
+                    <span class="tag">Problemas multiobjetivo</span>
+                    <span class="tag">Algoritmos evolutivos</span>
+                    <span class="tag">Métodos multicriterio (TOPSIS, ELECTRE-TRI)</span>
+                    <span class="tag">Programación agéntica</span>
+                    <span class="tag">Inteligencia Artificial</span>
+                </div>
+            </div>
+
+            <div class="publications">
+                <h3>Artículos Indizados (JCR)</h3>
+                <ul class="pub-list">
+                    <li>
+                        <strong>Estrada-Padilla A</strong>, Lopez-Garcia D, Gómez-Santillán C, et al. <em>Modeling and Optimizing the Multi-Objective Portfolio Optimization Problem with Trapezoidal Fuzzy Parameters</em>. Mathematical and Computational Applications. 2021; 26(2):36. <a href="https://doi.org/10.3390/mca26020036" target="_blank">DOI</a> <span class="badge jcr">JCR 2.25</span>
+                    </li>
+                    <li>
+                        <strong>Estrada-Padilla, A.</strong>, Gómez-Santillán, C., et al. (2023). <em>GRASP/Δ: An efficient algorithm for the multi-objective portfolio optimization problem</em>. Expert Systems with Applications, 211, 118647. <span class="badge jcrhigh">JCR 8.665</span>
+                    </li>
+                </ul>
+
+                <h3>Capítulos de Libro</h3>
+                <ul class="pub-list">
+                    <li>
+                        Fraire-Huacuja, H. J., <strong>Padilla, A. E.</strong>, et al. (2019). <em>Variable neighborhood search algorithm for the variable cost and size bin packing problem</em>. IGI Global.
+                    </li>
+                    <li>
+                        Gómez-Santillán, C. G., <strong>Padilla, A. E.</strong>, et al. (2021). <em>Multi-objective Portfolio Optimization Problem with Trapezoidal Fuzzy Parameters</em>. Springer.
+                    </li>
+                    <li>
+                        Huacuja, H. J. F., ..., <strong>Padilla, A. E.</strong>, et al. (2020). <em>A Novel Dynamic Multi-objective Evolutionary Algorithm with an Adaptable Roulette for the Selection of Operators</em>. Springer.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conferencias Section -->
+    <section id="conferencias" class="section">
+        <div class="container">
+            <h2 class="section-title">Conferencias Impartidas</h2>
+            <div class="conferences-grid">
+                <div class="conf-card">
+                    <img src="assets/TallerBigDataRedesSocialeseInteligenciaArtificial.jfif" alt="Big Data Conferencia">
+                    <div class="conf-overlay">
+                        <h3>“Big Data, redes sociales e inteligencia artificial”</h3>
+                        <p>Seminario Internacional de Innovación Computacional<br>26 de marzo del 2025</p>
+                    </div>
+                </div>
+                <div class="conf-card">
+                    <img src="assets/TallerIAparagestoresEmpresariales.jfif" alt="IA para Gestores">
+                    <div class="conf-overlay">
+                        <h3>“Inteligencia artificial para gestores empresariales”</h3>
+                        <p>XVII Foro de ingeniería en gestión empresarial<br>18 de noviembre del 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title text-white">Contacto</h2>
+            <div class="contact-card">
+                <p>Estoy abierto a colaboración con profesores investigadores y alumnos interesados en mis áreas de investigación.</p>
+                <div class="contact-emails">
+                    <a href="mailto:alejanro.ep@cdmadero.tecnm.mx"><i class="fas fa-envelope"></i> alejandro.ep@cdmadero.tecnm.mx</a>
+                    <a href="mailto:aestrada1993@hotmail.com"><i class="fas fa-envelope"></i> aestrada1993@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dr. Alejandro Estrada Padilla. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
