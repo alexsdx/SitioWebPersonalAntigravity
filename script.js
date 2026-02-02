@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Burger Animation
         burger.classList.toggle('toggle');
     });
-    
+
     // Close nav when clicking a link
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Smooth Scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        addEventListener('click', function (e) {
+        anchor.addEventListener('click', function (e) {
             e.preventDefault();
 
             const targetId = this.getAttribute('href');
             if (targetId === '#') return;
-            
+
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 targetElement.scrollIntoView({
