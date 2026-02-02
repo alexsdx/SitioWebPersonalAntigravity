@@ -648,3 +648,56 @@ footer {
         grid-template-columns: 100%;
     }
 }
+
+
+/* Hero Socials */
+.hero-socials {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: var(--transition);
+    border: 1px solid #ddd;
+    background: white;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.btn-social:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-light);
+}
+
+.linkedin {
+    color: #0077b5;
+    border-color: #0077b5;
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+    color: white;
+}
+
+.scholar {
+    color: #4285F4;
+    border-color: #4285F4;
+}
+
+.scholar:hover {
+    background-color: #4285F4;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-socials {
+        justify-content: center;
+    }
+}
